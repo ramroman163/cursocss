@@ -388,7 +388,7 @@ body{
 .questions__copy{
     width: 60%;
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 /* Footer */
@@ -487,7 +487,7 @@ body{
 
 /* Media queries */
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1000px){
     .nav__menu{
         display: block;
     }
@@ -548,6 +548,10 @@ body{
 
     .testimony__container{
         grid-template-columns: 30px 1fr 30px;
+    }
+
+    .price__table{
+        flex-direction: column;
     }
 
     .testimony__body{
